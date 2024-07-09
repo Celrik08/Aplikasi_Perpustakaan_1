@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="398c1d41e7d2412bab225251b909d1d2" Name="Diagram1">
+        <EntityTypeShape EntityType="perpustakaanModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="perpustakaanModel.tb_buku" Width="1.5" PointX="3" PointY="12.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="perpustakaanModel.tb_buku_masuk" Width="1.5" PointX="3" PointY="27" IsExpanded="true" />
+        <EntityTypeShape EntityType="perpustakaanModel.tb_detail_buku_masuk" Width="1.5" PointX="5.25" PointY="13" IsExpanded="true" />
+        <EntityTypeShape EntityType="perpustakaanModel.tb_detail_kembali" Width="1.5" PointX="8.25" PointY="13.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="perpustakaanModel.tb_detail_pinjam" Width="1.5" PointX="8.25" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="perpustakaanModel.tb_kategori" Width="1.5" PointX="0.75" PointY="13.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="perpustakaanModel.tb_kelas" Width="1.5" PointX="1.5" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="perpustakaanModel.tb_kembali" Width="1.5" PointX="6" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="perpustakaanModel.tb_keranjang" Width="1.5" PointX="8.25" PointY="16.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="perpustakaanModel.tb_pegawai" Width="1.5" PointX="1.5" PointY="21" IsExpanded="true" />
+        <EntityTypeShape EntityType="perpustakaanModel.tb_penerbit" Width="1.5" PointX="0.75" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="perpustakaanModel.tb_pengirim" Width="1.5" PointX="0.75" PointY="27.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="perpustakaanModel.tb_penuliss" Width="1.5" PointX="0.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="perpustakaanModel.tb_pinjam" Width="1.5" PointX="6" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="perpustakaanModel.tb_rak" Width="1.5" PointX="5.25" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="perpustakaanModel.tb_riwayat_kembali" Width="1.5" PointX="5.25" PointY="17" IsExpanded="true" />
+        <EntityTypeShape EntityType="perpustakaanModel.tb_riwayat_pinjam" Width="1.5" PointX="11.25" PointY="13" IsExpanded="true" />
+        <EntityTypeShape EntityType="perpustakaanModel.tb_role" Width="1.5" PointX="1.5" PointY="24.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="perpustakaanModel.tb_satuan" Width="1.5" PointX="3" PointY="18.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="perpustakaanModel.tb_siswa" Width="1.5" PointX="3.75" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="perpustakaanModel.tb_status" Width="1.5" PointX="3.75" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="perpustakaanModel.tb_user" Width="1.5" PointX="3.75" PointY="21.75" IsExpanded="true" />
+        <AssociationConnector Association="perpustakaanModel.FK_tb_buku_tb_kategori" ManuallyRouted="false" />
+        <AssociationConnector Association="perpustakaanModel.FK_tb_buku_tb_penerbit" ManuallyRouted="false" />
+        <AssociationConnector Association="perpustakaanModel.FK_tb_buku_tb_penuliss" ManuallyRouted="false" />
+        <AssociationConnector Association="perpustakaanModel.FK_tb_detail_buku_masuk_tb_buku" ManuallyRouted="false" />
+        <AssociationConnector Association="perpustakaanModel.FK_tb_detail_kembali_tb_buku1" ManuallyRouted="false" />
+        <AssociationConnector Association="perpustakaanModel.FK_tb_detail_pinjam_tb_buku" ManuallyRouted="false" />
+        <AssociationConnector Association="perpustakaanModel.FK_tb_keranjang_tb_buku" ManuallyRouted="false" />
+        <AssociationConnector Association="perpustakaanModel.FK_tb_rak_tb_buku" ManuallyRouted="false" />
+        <AssociationConnector Association="perpustakaanModel.FK_tb_riwayat_kembali_tb_buku" ManuallyRouted="false" />
+        <AssociationConnector Association="perpustakaanModel.FK_tb_riwayat_pinjam_tb_buku" ManuallyRouted="false" />
+        <AssociationConnector Association="perpustakaanModel.FK_tb_buku_masuk_tb_pengirim" ManuallyRouted="false" />
+        <AssociationConnector Association="perpustakaanModel.FK_tb_buku_masuk_tb_user" ManuallyRouted="false" />
+        <AssociationConnector Association="perpustakaanModel.FK_tb_detail_buku_masuk_tb_buku_masuk" ManuallyRouted="false" />
+        <AssociationConnector Association="perpustakaanModel.FK_tb_detail_buku_masuk_tb_satuan" ManuallyRouted="false" />
+        <AssociationConnector Association="perpustakaanModel.FK_tb_detail_kembali_tb_kembali" ManuallyRouted="false" />
+        <AssociationConnector Association="perpustakaanModel.FK_tb_detail_transaksi_tb_master_transaksi1" ManuallyRouted="false" />
+        <AssociationConnector Association="perpustakaanModel.FK_tb_rak_tb_kategori" ManuallyRouted="false" />
+        <AssociationConnector Association="perpustakaanModel.FK_tb_siswa_tb_kelas" ManuallyRouted="false" />
+        <AssociationConnector Association="perpustakaanModel.FK_tb_kembali_tb_kembali" ManuallyRouted="false" />
+        <AssociationConnector Association="perpustakaanModel.FK_tb_kembali_tb_status" ManuallyRouted="false" />
+        <AssociationConnector Association="perpustakaanModel.FK_tb_kembali_tb_user" ManuallyRouted="false" />
+        <AssociationConnector Association="perpustakaanModel.FK_tb_keranjang_tb_pinjam" ManuallyRouted="false" />
+        <AssociationConnector Association="perpustakaanModel.FK_tb_user_tb_pegawai" ManuallyRouted="false" />
+        <AssociationConnector Association="perpustakaanModel.FK_tb_master_transaksi_tb_anggotas" ManuallyRouted="false" />
+        <AssociationConnector Association="perpustakaanModel.FK_tb_master_transaksi_tb_user" ManuallyRouted="false" />
+        <AssociationConnector Association="perpustakaanModel.FK_tb_pinjam_tb_status" ManuallyRouted="false" />
+        <AssociationConnector Association="perpustakaanModel.FK_tb_riwayat_kembali_tb_siswa" ManuallyRouted="false" />
+        <AssociationConnector Association="perpustakaanModel.FK_tb_riwayat_kembali_tb_status" ManuallyRouted="false" />
+        <AssociationConnector Association="perpustakaanModel.FK_tb_riwayat_pinjam_tb_riwayat_pinjam" ManuallyRouted="false" />
+        <AssociationConnector Association="perpustakaanModel.FK_tb_riwayat_pinjam_tb_status" ManuallyRouted="false" />
+        <AssociationConnector Association="perpustakaanModel.FK_tb_user_tb_role" ManuallyRouted="false" />
+        <AssociationConnector Association="perpustakaanModel.FK_tb_user_tb_siswa" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
